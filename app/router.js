@@ -7,6 +7,15 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+   this.route('new', { 
+      path: '/calendars/new' 
+   });
+   this.route('calendars', {
+      path: '/calendars'   
+   });
+   this.route('calendars', {
+      path: '/calendars'   
+   });
 });
 
 export default Router;
